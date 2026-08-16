@@ -46,8 +46,8 @@ CodeAlpha_FAQChatbot/
 │
 └── screenshots/
     ├── chatbot.home.png
-    ├── chatbot.ques-ans.png
-    └── chabot.search.png
+    ├── chatbot.search.png
+    └── chatbot.ques-ans.png
 ```
 
 ---
@@ -75,6 +75,18 @@ python -m venv .venv
 ### 4. Activate the Virtual Environment
 
 For Windows PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+If PowerShell shows an execution policy error, run:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Then activate the environment again:
 
 ```powershell
 .venv\Scripts\Activate.ps1
@@ -140,16 +152,15 @@ The corresponding answer is then displayed to the user.
 
 ### 🏠 Chatbot Home
 
-![Chatbot Home](screenshots/chatbot.home.png)
+<img src="screenshots/chatbot.home.png" alt="Chatbot Home" width="800">
 
 ### 🔍 FAQ Search
 
-![FAQ Search](screenshots/chatbot.search.png)
-
+<img src="screenshots/chatbot.search.png" alt="FAQ Search" width="800">
 
 ### 💬 Question & Answer
 
-![Question and Answer](screenshots/chatbot.ques-ans.png)
+<img src="screenshots/chatbot.ques-ans.png" alt="Question and Answer" width="800">
 
 ---
 
