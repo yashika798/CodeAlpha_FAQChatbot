@@ -144,7 +144,8 @@ The corresponding answer is then displayed to the user.
 
 ### 🔍 FAQ Search
 
-![FAQ Search](screenshots/chabot.search.png)
+![FAQ Search](screenshots/chatbot.search.png)
+
 
 ### 💬 Question & Answer
 
